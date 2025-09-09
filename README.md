@@ -1,4 +1,3 @@
-# IA-nas-Profissoes
 # 🌐 IA nas Profissões
 
 Este é um site informativo que mostra como a Inteligência Artificial (IA) pode transformar diferentes áreas profissionais, como saúde, educação, agricultura e direito.
