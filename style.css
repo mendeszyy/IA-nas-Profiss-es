@@ -1,0 +1,94 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Layout */
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #1e3a8a;
+  color: white;
+  padding: 20px 0;
+}
+
+header h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+nav ul li {
+  margin: 5px 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #a5d8ff;
+}
+
+/* Seções */
+.section {
+  margin: 40px 0;
+  padding: 20px;
+  background-color: white;
+  border-left: 6px solid #1e3a8a;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.section h2 {
+  color: #1e3a8a;
+  margin-bottom: 10px;
+}
+
+/* Botão */
+.btn {
+  display: inline-block;
+  background-color: #1e3a8a;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #3b82f6;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #1e3a8a;
+  color: white;
+  margin-top: 40px;
+}
