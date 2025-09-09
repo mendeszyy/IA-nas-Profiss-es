@@ -1,15 +1,14 @@
-/* Reset básico */
+/* Reset e Fonte */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
   font-family: 'Inter', sans-serif;
-  line-height: 1.6;
-  background-color: #f9f9f9;
-  color: #333;
+  background: linear-gradient(to right, #eef2f3, #8ec5fc);
+  color: #222;
+  line-height: 1.7;
 }
 
 /* Layout */
@@ -23,72 +22,28 @@ body {
 header {
   background-color: #1e3a8a;
   color: white;
-  padding: 20px 0;
-}
-
-header h1 {
+  padding: 25px 0;
   text-align: center;
-  margin-bottom: 10px;
 }
 
 nav ul {
   display: flex;
   justify-content: center;
-  list-style: none;
   flex-wrap: wrap;
+  gap: 15px;
+  list-style: none;
+  margin-top: 15px;
 }
-
-nav ul li {
-  margin: 5px 15px;
-}
-
 nav ul li a {
   color: white;
   text-decoration: none;
   font-weight: 600;
-  transition: color 0.3s;
+  transition: 0.3s;
 }
-
 nav ul li a:hover {
   color: #a5d8ff;
 }
 
 /* Seções */
 .section {
-  margin: 40px 0;
-  padding: 20px;
-  background-color: white;
-  border-left: 6px solid #1e3a8a;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-}
-
-.section h2 {
-  color: #1e3a8a;
-  margin-bottom: 10px;
-}
-
-/* Botão */
-.btn {
-  display: inline-block;
-  background-color: #1e3a8a;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 5px;
-  text-decoration: none;
-  font-weight: 600;
-  transition: background 0.3s;
-}
-
-.btn:hover {
-  background-color: #3b82f6;
-}
-
-/* Rodapé */
-footer {
-  text-align: center;
-  padding: 20px;
-  background-color: #1e3a8a;
-  color: white;
-  margin-top: 40px;
-}
+  margin: 
